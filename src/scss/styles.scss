@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+@import "../bootstrap/mixins";
+@import "../bootstrap/grid";
+
+  ul#filterNav{
+    margin: 0px auto;
+    list-style: none;
+    display: flex;
+    gap: .3rem;
+    li{
+      padding: .5rem;
+      cursor: pointer;
+      background-color: #6f42c1;
+      color: white;
+    }
+  }
+  .portfolio{
+    .item{
+      padding: .5rem;
+      img{
+        width: 100%;
+        max-width: 100%;
+        display: block;
+      }
+    }
+  }
+
